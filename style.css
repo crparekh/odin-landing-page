@@ -6,5 +6,23 @@ html {
 .upper {
     display: flexbox;
     background-color: #1F2937;
+    
 }
 
+.link-tabs {
+
+    margin-left: 1500px;
+
+}
+
+.link-tabs ul {
+    list-style: none;
+}
+
+.link-tabs li {
+    display: inline;
+}
+
+.recipe-link {
+    margin: 50px;
+}
