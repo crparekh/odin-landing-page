@@ -21,8 +21,14 @@ html {
 
 .link-tabs li {
     display: inline;
+    
 }
 
 .recipe-link {
     margin: 50px;
+}
+
+.link-tabs a {
+    color: cornsilk;
+    text-decoration: none;
 }
