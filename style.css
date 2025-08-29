@@ -36,3 +36,9 @@ html {
     color: cornsilk;
     text-decoration: none;
 }
+
+div.logo img {
+    height: 100px;
+    margin-bottom: -20px;
+    margin-left: 50px;
+}
