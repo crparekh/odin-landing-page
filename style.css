@@ -32,6 +32,8 @@ div.logo img {
 
 div.logo ul {
     display: inline-flex;
+    padding-right: 10%;
+    
     
 }
 
@@ -80,4 +82,29 @@ a:hover{
 div.awesome-text {
     display: flex;
     height: 250px;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#upper-text {
+    padding: 15px;
+    margin-left: auto;
+    
+}
+
+strong.title-awesome {
+    display: block;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 75%;
+}
+
+.astro {
+    padding: 15px;
+    margin-right: auto;
+    
+    
 }
