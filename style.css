@@ -12,6 +12,7 @@ html {
 .upper {
     
     background-color: #1F2937;
+    padding-bottom: 55px;
     
 
 
@@ -19,6 +20,7 @@ html {
 
 div.logo {
     display: flex;
+    
     
 }
 
@@ -40,9 +42,42 @@ ul.links {
 
 li.recipe-link {
     margin-right: 25px;
+    height: min-content;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-style: solid;
+    border-color: bisque;
+    background-color: bisque;
+    
+    
+
+}
+
+li.odin-link {
+    height: min-content;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-style: solid;
+    border-color: bisque;
+    background-color: bisque
 }
 
 ul a {
     text-decoration: none;
-    color: bisque;
+    color: #1F2937;
+    padding: 20px;
+    
+}
+
+a:hover{
+
+    background-color: rgb(201, 173, 131);
+
+}
+
+div.awesome-text {
+    display: flex;
+    height: 250px;
 }
