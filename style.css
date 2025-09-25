@@ -137,12 +137,33 @@ div.middle {
     flex-wrap: wrap;
     justify-content: space-around;
 
+    
+
 }
 
 .middle > * {
     
     height: 200px;
+    min-height: 200px;
+    flex-shrink: 0;
+    margin: 20px;
+}
+
+div.image #full-moon {
+    object-fit: cover;
+}
+
+div.image #space-station {
+    object-fit: cover;
     
+}
+
+div.image #moon-landing {
+    object-fit: cover;
+}
+
+div.image #moon {
+    object-fit: cover;
 }
     
 .middle div img {
@@ -158,6 +179,7 @@ div.middle {
 
 figcaption {
     text-align: center;
+    
 }
 
 #full-moon {
@@ -181,4 +203,6 @@ figcaption {
 }
 div.random-text {
     justify-self: center;
+    padding: 50px;
+
 }
