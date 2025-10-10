@@ -203,9 +203,10 @@ p.goggins {
     display: block;
     size: 36px;
     color: #1F2937;
-    font-weight: 300;
-    width: 270px;
-    font-family: serif
+    width: 300px;
+    font-size: large;
+    font-family: serif;
+    
 }
 
 span.david {
