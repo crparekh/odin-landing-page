@@ -217,3 +217,43 @@ span.david {
     font-style: italic;
     font-weight: bold;
 }
+
+div.lower {
+    
+}
+
+div.calltoaction {
+    display: flex;
+    justify-self: center;
+    border: solid;
+    border-color: #3882f6;
+    background-color: #3882f6;
+    color: white;
+    margin-top: 30px;
+    width: 600px;
+    padding: 1.5pc;
+    border-radius: 20px;
+}
+
+p.action-text {
+    display: block;
+    
+}
+
+
+button.lowerbutton {
+    margin-left: 110px;
+    background-color: #3882f6;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid;
+    font-size: 15px;
+
+}
+
+button.lowerbutton:hover {
+    background-color: rgb(221, 121, 7);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
