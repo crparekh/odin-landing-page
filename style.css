@@ -188,3 +188,31 @@ div.random-text {
     padding: 50px;
 
 }
+
+div.quote {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #E5E7EB;
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+
+p.goggins {
+    display: block;
+    size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    width: 270px;
+    font-family: serif
+}
+
+span.david {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 0;
+    font-style: italic;
+    font-weight: bold;
+}
